@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regular Expressions
 
 Regular expressions, or regex, are a sequence of characters that defines a set of search parameters. They are extremely versatile and customizable, so they are an important tool for any developer to know how to use.
 
@@ -11,14 +11,8 @@ The regex we are going over today is, /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ . This is 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
