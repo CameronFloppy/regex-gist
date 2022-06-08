@@ -17,7 +17,7 @@ The regex we are going over today is, /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ . This is 
 ## Regex Components
 
 ### Anchors
-There are 2 anchors in this expression, ^ and $. The ^ at the beginning says that the value must begin with the following character or string, so in this case it is saying that it must begin with #. The $ at the end says that the value must exactly match the preceding parameters. 
+There are 2 anchors in this expression, ^ and /$. The ^ at the beginning says that the value must begin with the following character or string, so in this case it is saying that it must begin with #. The $ at the end says that the value must exactly match the preceding parameters. 
 ### Quantifiers
 This regex contains 2 quatifiers, {6} and {3}. These denote the number of times we want to match the preceding bracketed expression. 6 would be the length of any standard hex value, and any hex value that has 3 characters that repeat, such as #ffcc99 can be represented with 3 digits.
 ### OR Operator
